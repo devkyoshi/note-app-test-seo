@@ -4,11 +4,55 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Notebook App</title>
-    <meta name="description" content="A simple note-taking application for organizing your thoughts and ideas" />
+    <title>Notebook, Diary & Note App - Organize Your Life</title>
+    <meta name="description" content="Your digital notebook, diary, and note-taking solution. Organize thoughts, track your day, and jot down ideas effortlessly. Start writing today!" />
+    <meta name="keywords" content="notebook, note, diary, note taking, journal, organizer" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Notebook, Diary & Note App - Organize Your Life" />
+    <meta property="og:description" content="Your digital notebook, diary, and note-taking solution. Organize thoughts, track your day, and jot down ideas effortlessly. Start writing today!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:image" content="https://yourwebsite.com/images/notebook-preview.jpg" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Notebook, Diary & Note App - Organize Your Life">
+    <meta name="twitter:description" content="Your digital notebook, diary, and note-taking solution. Organize thoughts, track your day, and jot down ideas effortlessly. Start writing today!">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/notebook-preview.jpg">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <header>
+        <h1>Your All-in-One Notebook, Diary & Note App</h1>
+      </header>
+      <main>
+        <section>
+          <h2>Capture Every Note and Idea</h2>
+          <p>Easily create and organize your notes in a digital notebook.</p>
+          <img src="/images/notebook-screenshot.png" alt="Notebook app screenshot showing a note" />
+        </section>
+        <section>
+          <h2>Keep a Personal Diary</h2>
+          <p>Reflect on your day and track your journey with our intuitive diary feature.</p>
+          <img src="/images/diary-screenshot.png" alt="Diary entry example in the app" />
+        </section>
+      </main>
+    </div>
+    
     <script type="module" src="/src/main.tsx"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Notebook, Diary & Note App",
+      "operatingSystem": "All",
+      "applicationCategory": "Productivity Application",
+      "description": "Your digital notebook, diary, and note-taking solution. Organize thoughts, track your day, and jot down ideas effortlessly.",
+      "url": "https://yourwebsite.com",
+      "image": "https://yourwebsite.com/images/notebook-preview.jpg"
+    }
+    </script>
   </body>
 </html>
